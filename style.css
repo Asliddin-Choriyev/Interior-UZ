@@ -1,0 +1,1339 @@
+@font-face {
+  font-family: PlayFair;
+  src: url(./assets/fonts/playfair/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+body {
+  max-width: 1440px;
+  max-height: 6565px;
+  margin: 0 auto;
+}
+
+/* ======================================   NAVBAR ================================================ */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.mainName {
+  margin-top: 54px;
+  margin-left: 135px;
+  color: #121212;
+  font-family: Playfair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.menu-burger {
+  margin-top: -200px;
+}
+
+.ddown {
+  display: none;
+}
+.ddown > span > img {
+  width: 16px;
+  height: 0px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  color: #ff6a28;
+}
+.menues > ul {
+  display: flex;
+  column-gap: 30px;
+  list-style: none;
+}
+.menues {
+  margin-top: 71px;
+  margin-left: 418px;
+}
+.menues > ul > li > a {
+  text-decoration: none;
+  color: rgba(18, 18, 18, 0.6);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menues > ul > li > a:hover {
+  color: black;
+  border-bottom: 2px solid #ff6a28;
+}
+.contakt-button {
+  margin-left: 32px;
+  margin-top: 71px;
+  display: inline-flex;
+  padding: 11px 29px 10px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #ff6a28;
+}
+.contakt-button {
+  background-color: inherit;
+  color: #ff6a28;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border: 1px solid #ff6a28;
+}
+.contakt-button > a {
+  text-decoration: none;
+  color: inherit;
+}
+.univer-button {
+  display: inline-flex;
+  padding: 11px 39px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 5px;
+  background: #ff6a28;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+/* ================================  Header ======================================= */
+.header {
+  margin-top: 103px;
+}
+header > h1 {
+  margin-top: 300px;
+  color: #121212;
+  text-align: center;
+  font-family: PlayFair;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 28px 0 28px;
+}
+header > p {
+  margin-top: 41px;
+  color: rgba(18, 18, 18, 0.6);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+header > .univer-button {
+  margin-left: 623px;
+  margin-top: 42px;
+}
+.main-card {
+  background-image: url(./assets/images/header-background.jpg);
+  width: 1225px;
+  height: 575px;
+  background-size: cover;
+  box-shadow: 15px -15px 10px rgb(60, 255, 0);
+  /* flex-shrink: 0;
+    background: #c4c4c4; */
+  margin-left: 140px;
+  border-radius: 10px;
+  margin-top: 40px;
+  display: flex;
+  column-gap: 335px;
+  padding-top: 25px;
+}
+.card-box1 {
+  display: flex;
+  box-shadow: inset 10px 10px 10px rgb(242, 39, 3);
+
+  align-items: center;
+  column-gap: 16px;
+  margin-left: 25px;
+  width: 419px;
+  height: 148px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.76);
+  backdrop-filter: blur(20px);
+}
+.card-box1 > h1 {
+  color: #ff6a28;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 44px 0 38px 38px;
+}
+.card-box1 > p {
+  color: rgba(18, 18, 18, 0.83);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card-box2 {
+  box-shadow: 10px -10px 10px rgb(242, 39, 3);
+  display: flex;
+  align-items: center;
+  column-gap: 22px;
+  width: 419px;
+  height: 148px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.76);
+  backdrop-filter: blur(20px);
+  margin-top: 405px;
+}
+.card-box2 > h1 {
+  color: #ff6a28;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 44px 0 38px 38px;
+}
+.card-box2 > p {
+  color: rgba(18, 18, 18, 0.83);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* =================================== Workflow ================================================= */
+.workflow {
+  margin-left: 136px;
+}
+.workflow-cards {
+  display: flex;
+  column-gap: 75px;
+  overflow-x: scroll;
+}
+.ww-title > h1 {
+  color: #121212;
+  font-family: Playfair;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ww-title > p {
+  color: rgba(18, 18, 18, 0.6);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  margin-top: -30px;
+  align-items: center;
+}
+.ww-title > p > span {
+  color: #ff6a28;
+  margin-right: 15px;
+}
+.ww-card-box {
+  width: 324px;
+  height: 206px;
+  flex-shrink: 0;
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+.ww-card > h2 {
+  color: #121212;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.ww-card > h2 > span {
+  color: rgba(255, 106, 40, 0.7);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  width: 38px;
+  margin-left: 115px;
+}
+.ww-card:nth-child(4) > h2 > span {
+  margin-left: 65px;
+}
+.ww-card:nth-child(3) > h2 > span {
+  margin-left: 145px;
+}
+.ww-card > p {
+  color: rgba(18, 18, 18, 0.83);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.5%;
+  margin-top: -15px;
+  width: 324px;
+}
+.ww-card:nth-child(1) > .ww-card-box {
+  background-image: url(./assets/images/we-work1.jpg);
+}
+.ww-card:nth-child(2) > .ww-card-box {
+  background-image: url(./assets/images/we-work2.jpg);
+}
+.ww-card:nth-child(3) > .ww-card-box {
+  background-image: url(./assets/images/we-work3.jpg);
+}
+.ww-card:nth-child(4) > .ww-card-box {
+  background-image: url(./assets/images/we-work4.jpg);
+}
+
+/* ====================================== Reviews ================================== */
+.review {
+  margin-left: 136px;
+}
+
+.review-box {
+  background-repeat: no-repeat;
+}
+.review-title > h3 {
+  color: #121212;
+  font-family: Playfair;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 136px;
+}
+.review-title > p {
+  color: rgba(18, 18, 18, 0.6);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  margin-left: 140px;
+  margin-top: -55px;
+}
+.review-title > p > span {
+  width: 1440px;
+  height: 712px;
+  flex-shrink: 0;
+  margin-right: 12px;
+  stroke-width: 2px;
+  color: #ff6a28;
+}
+.review-box > img {
+  margin-top: 20px;
+  width: 550px;
+  height: 428px;
+  flex-shrink: 0;
+  margin-left: 136px;
+  border-radius: 15px;
+  outline: 10px solid rgb(125, 125, 125);
+}
+.review-elements {
+  display: flex;
+  background: #e4e3e3;
+}
+.review-infos {
+  margin-left: 85px;
+  margin-top: -5px;
+  padding: 10px 0 10px 20px;
+}
+.review-infos > h1 {
+  color: #121212;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.review-infos > p {
+  color: rgba(18, 18, 18, 0.6);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  margin-top: -40px;
+}
+.review-infos > h5 {
+  color: rgba(18, 18, 18, 0.83);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%;
+  width: 559px;
+}
+.review-infos > img {
+  cursor: pointer;
+}
+
+/* =========================================  Projects ========================================== */
+.Project {
+  margin-left: 136px;
+  margin-top: 88;
+}
+.Project-title > h3 {
+  color: #121212;
+  text-align: center;
+  font-family: Playfair;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Project-title > p {
+  color: rgba(18, 18, 18, 0.6);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  margin-top: -55px;
+}
+.Project-title > p > span {
+  width: 67px;
+  height: 0px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  color: #ff6a28;
+}
+.Project-elements {
+  margin-top: 79px;
+}
+.Project-infos {
+  margin-top: -30px;
+}
+.Project-infos > h1 {
+  color: #121212;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 541px;
+  margin-top: 20px;
+}
+.Project-infos > h5 {
+  margin-top: 20px;
+  color: rgba(18, 18, 18, 0.83);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%; /* 45.84px */
+  width: 531px;
+  height: 186px;
+  flex-shrink: 0;
+}
+.Project-elements {
+  display: flex;
+}
+.Project-box > img {
+  margin-top: 20px;
+  width: 550px;
+  height: 428px;
+  flex-shrink: 0;
+  margin-left: 136px;
+  border-radius: 15px;
+  outline: 10px solid rgb(125, 125, 125);
+}
+.Project-infos > button {
+  display: inline-flex;
+  width: 190px;
+  height: 52px;
+  padding: 11px 39px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #ff6a28;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin-top: -10px;
+}
+.Project-box2 > img {
+  margin-top: 20px;
+  width: 550px;
+  height: 428px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  outline: 10px solid rgb(125, 125, 125);
+}
+.Project-infos2 {
+  margin-left: 140px;
+  margin-top: -30px;
+}
+.Project-infos2 > h1 {
+  color: #121212;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 541px;
+  margin-top: 20px;
+}
+.Project-infos2 > h5 {
+  margin-top: 20px;
+  color: rgba(18, 18, 18, 0.83);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%; /* 45.84px */
+  width: 531px;
+  height: 186px;
+  flex-shrink: 0;
+}
+.Project-infos2 > button {
+  display: inline-flex;
+  width: 190px;
+  height: 52px;
+  padding: 11px 39px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #ff6a28;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin-top: -10px;
+}
+
+/* =============================== Contact Us ============================================ */
+.contact-us {
+  margin-left: 30px;
+  width: 1440px;
+  height: 822px;
+  flex-shrink: 0;
+  background: #f8fafb;
+  margin-top: 150px;
+}
+.contact-us-elements {
+  display: flex;
+}
+.texts {
+  margin-left: 134px;
+}
+.texts > h1 {
+  color: #121212;
+  font-family: Playfair;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  width: 624px;
+  line-height: normal;
+  padding-top: 131px;
+}
+.texts > span > svg {
+  margin-top: 42px;
+}
+.texts > p {
+  color: rgba(18, 18, 18, 0.83);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%; /* 45.84px */
+  width: 523px;
+  height: 186px;
+  flex-shrink: 0;
+}
+
+.inputs {
+  width: 685px;
+  height: 913px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 42px;
+}
+form {
+  margin-top: 60px;
+}
+.inputs input {
+  margin-left: 39px;
+  padding: 31px 309px 31px 34px;
+  flex-shrink: 0;
+  background-color: #f8fafb;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 34px;
+}
+.inputs input::placeholder {
+  color: rgba(18, 18, 18, 0.5);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.inputs label {
+  margin-left: 39px;
+  color: rgba(18, 18, 18, 0.83);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%;
+}
+.inputs .univer-button {
+  margin-left: 485px;
+  margin-top: 56px;
+  cursor: pointer;
+}
+.re-inputs {
+  display: none;
+}
+/* ===========================================  newsletter ===================================== */
+footer {
+  margin-top: 179px;
+  display: flex;
+  align-items: center;
+}
+.newsletter {
+  margin-left: 135px;
+}
+.newsletter-title {
+  display: flex;
+}
+.newsletter-title > span {
+  margin-top: 68px;
+  margin-left: 15px;
+}
+.newsletter-title > h6 {
+  color: #121212;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 191%; /* 45.84px */
+}
+.newsletter > p {
+  color: rgba(18, 18, 18, 0.5);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%; /* 38.2px */
+  width: 449px;
+  margin-top: -38px;
+}
+.message-ground {
+  width: 694px;
+  height: 78px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-top: 58px;
+}
+.message-ground > input {
+  padding: 35px 222px 35px 35px;
+  background-color: #d2d2d2;
+  font-size: 20px;
+}
+.message-ground .univer-button {
+  margin-left: -180px;
+  border: none;
+}
+.message-ground > input::placeholder {
+  color: rgba(234, 15, 15, 0.5);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%;
+}
+.re-subs {
+  display: none;
+}
+/* ===============================  Others ==================================================== */
+ul {
+  list-style: none;
+}
+.navigation > p {
+  color: #121212;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 191%; /* 45.84px */
+}
+.navigation > ul > li {
+  color: rgba(18, 18, 18, 0.5);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%; /* 38.2px */
+  margin-top: 26px;
+}
+.others {
+  display: flex;
+}
+.about > p {
+  margin-left: 116px;
+  color: #121212;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 191%; /* 45.84px */
+}
+.about > ul > li {
+  margin-left: 80px;
+  color: rgba(18, 18, 18, 0.5);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%; /* 38.2px */
+  margin-top: 26px;
+}
+.social > p {
+  margin-left: 116px;
+  color: #121212;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 191%; /* 45.84px */
+}
+.social > ul > li {
+  margin-left: 75px;
+  color: rgba(18, 18, 18, 0.5);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%; /* 38.2px */
+  margin-top: 26px;
+}
+.license {
+  margin-top: 140px;
+  margin-left: 100px;
+  display: flex;
+  column-gap: 40px;
+}
+.license > p {
+  color: rgba(18, 18, 18, 0.5);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 191%; /* 38.2px */
+}
+.license > p:nth-child(2) {
+  margin-left: 38px;
+}
+.license > p:nth-child(3) {
+  margin-left: 338px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* ===================================   RESPONSIVE ====================================================== */
+@media (max-width: 391px) {
+  body {
+    max-width: 390px;
+  }
+  .container {
+    overflow: hidden;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  /* ========================================= | responsive | navbar ===================================================== */
+  .navbar {
+    display: block;
+  }
+  .mainName {
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 32px;
+  }
+
+  .menu-burger {
+    display: block;
+    margin-left: 320px;
+    margin-top: -35px;
+  }
+  .menu-burger > ul {
+    list-style: none;
+  }
+  .menu-burger > ul > li > p {
+    font-size: 32px;
+    margin-top: 20px;
+    transform: rotate(90deg);
+  }
+  .menues {
+    display: none;
+  }
+  .menues > ul {
+    display: block;
+    margin-top: -105px;
+    margin-left: -20px;
+  }
+  .menues > ul > li > a {
+    font-size: 20px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .ddown {
+    display: none;
+
+    background-color: rgb(138, 138, 138);
+    color: white;
+    max-height: 100px;
+  }
+
+  .menu-burger :hover .ddown {
+    display: block;
+    margin-top: -60px;
+    max-width: 100%;
+    margin-left: 200px;
+    text-align: center;
+  }
+  .menu-burger:hover {
+    margin-left: 100px;
+  }
+  .ddown > ul > li {
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .ddown > ul :hover {
+    background-color: black;
+    row-gap: 10px;
+    font-size: 18px;
+    border: 3px solid greenyellow;
+    border-radius: 20%;
+    text-decoration: none;
+  }
+  .ddown > ul > button {
+    border: 2px solid #ff6a28;
+    color: #ff6a28;
+    background-color: white;
+    padding: 0 10px 0 10px;
+  }
+  .ddown > ul > button:hover {
+    color: white;
+    background-color: #ff6a28;
+  }
+  .contakt-button {
+    display: none;
+  }
+  .ddown > ul > button > a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 12px;
+  }
+  .ddown > ul > button > a:hover {
+    font-size: 12px;
+  }
+
+  /*  ================================================ | responsive |  header ====================================== */
+
+  header > h1 {
+    margin-top: -10px;
+    color: #121212;
+    text-align: center;
+    font-family: Playfair;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    overflow-x: hidden;
+  }
+  header > p {
+    margin-top: -80px;
+    color: rgba(18, 18, 18, 0.6);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    margin: 20px 25px 20px 25px;
+  }
+  header > .univer-button {
+    margin-left: 95px;
+    margin-top: -10px;
+  }
+  /* ================================================ | responsive | workflow ========================================== */
+  .main-card {
+    width: 350px;
+    height: 505px;
+    flex-shrink: 0;
+    background: #c4c4c4;
+    margin-left: 4px;
+    border-radius: 10px;
+    margin-top: 40px;
+    column-gap: 335px;
+    padding-top: 25px;
+  }
+  .card-box1 {
+    margin-top: 50px;
+    margin-left: 5px;
+    width: 350px;
+  }
+  .card-box2 {
+    width: 350px;
+    margin-left: -685px;
+    margin-top: 250px;
+  }
+  .ww-card > h2 {
+    font-size: 26px;
+  }
+  .ww-card > p {
+    margin-top: 10px;
+    padding-bottom: 30px;
+  }
+  .ww-title > h1 {
+    margin-top: 15px;
+    font-size: 32px;
+    margin-left: -25px;
+  }
+  .ww-title > p {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: -15px;
+  }
+  .ww-title > p > span {
+    display: none;
+  }
+  .workflow-cards {
+    display: block;
+    margin-left: -105px;
+    row-gap: 40px;
+  }
+  /* ==================================================== | reponsive | review ======================================== */
+  .Review {
+    margin-top: 40px;
+  }
+  .review-title > h3 {
+    margin-left: 2px;
+    font-size: 30px;
+  }
+  .review-title > p {
+    margin-top: 20px;
+    margin-left: 115px;
+  }
+  .review-title > p > span {
+    display: none;
+  }
+  .review-box > img {
+    margin-top: 20px;
+    width: 350px;
+    height: 328px;
+    flex-shrink: 0;
+    margin-left: 15px;
+    border-radius: 15px;
+    outline: 10px solid rgb(125, 125, 125);
+  }
+  .review-elements {
+    display: block;
+  }
+  .review-infos > h1 {
+    font-size: 32px;
+    margin-left: -15px;
+  }
+  .review-infos > p {
+    margin-top: -5px;
+    margin-left: -15px;
+  }
+  .review-infos > h5 {
+    margin-top: 10px;
+    margin-left: -89px;
+    font-size: 16px;
+    width: 350px;
+  }
+  .review-infos > img {
+    margin-left: 14px;
+  }
+  /* =================================================== | responsive | project ========================================== */
+  .Project {
+    margin-top: 40px;
+  }
+  .Project-title > h3 {
+    font-size: 32px;
+    margin-left: -135px;
+  }
+  .Project-title > p > span {
+    display: none;
+  }
+
+  .Project-title > p {
+    margin-top: 5px;
+    margin-left: -135px;
+  }
+  .Project-elements {
+    display: block;
+    margin-left: -115px;
+  }
+  .Project-infos > h1 {
+    font-size: 24px;
+    margin-left: -5px;
+  }
+  .Project-infos > h5 {
+    font-size: 18px;
+    width: 345px;
+  }
+  .Project-infos .univer-button {
+    margin-top: 200px;
+  }
+  .Project-box > img {
+    margin-top: -250px;
+    margin-left: -8px;
+    width: 350px;
+  }
+  .Project-box2 > img {
+    margin-left: -8px;
+    width: 350px;
+    margin-top: 200px;
+  }
+  .Project-infos2 > h1 {
+    font-size: 22px;
+    margin-left: -150px;
+    margin-top: -650px;
+  }
+  .Project-infos2 > h5 {
+    margin-left: -145px;
+    font-size: 18px;
+    width: 340px;
+    margin-top: 20px;
+  }
+  .Project-infos2 .univer-button {
+    display: none;
+  }
+  .Project-elements:nth-child(4) {
+    margin-top: 500px;
+  }
+  /* =========================================== | responsive | contact-us ========================================  */
+  .contact-us {
+    margin-top: -40px;
+  }
+  .contact-us-elements {
+    display: block;
+  }
+  .texts > h1 {
+    font-size: 28px;
+    margin-left: -145px;
+  }
+  .texts > p {
+    margin-top: 20px;
+    margin-left: -150px;
+    width: 350px;
+    font-size: 20px;
+  }
+  .texts > span {
+    display: none;
+  }
+  .inputs {
+    display: none;
+  }
+  .re-inputs {
+    display: block;
+    margin-top: 100px;
+  }
+  .re-inputs > h2 {
+    font-family: Poppins;
+    color: blue;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  .re-inputs input {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin-left: 12px;
+    border-radius: 10px;
+    border: 2px dotted yellowgreen;
+    color: black;
+    opacity: 2;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  .re-inputs input::placeholder {
+    color: black;
+    opacity: 0.7;
+    font-size: 16px;
+  }
+  .re-inputs > .univer-button {
+    margin-left: 80px;
+  }
+  /* =================================== |responsive |  newsletter =========================================== */
+  footer {
+    margin-left: -95px;
+    display: block;
+  }
+  .newsletter-title > h6 {
+    margin-left: 90px;
+  }
+  .newsletter-title > span {
+    display: none;
+  }
+  .newsletter {
+    margin-top: -30px;
+  }
+  .newsletter > p {
+    margin-top: 5px;
+    margin-left: -25px;
+    width: 350px;
+  }
+  .message-ground > button,
+  .message-ground > input {
+    display: none;
+  }
+  .re-subs {
+    display: block;
+  }
+  .re-subs > input {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px dashed red;
+    color: black;
+    font-size: 16px;
+  }
+  .re-subs > input::placeholder {
+    font-family: Playfair;
+  }
+  .re-subs > button {
+    width: 150px;
+    height: 50px;
+    margin-left: 75px;
+    margin-top: 5px;
+    font-family: Poppins;
+    font-size: 16px;
+    background-color: #ff6a28;
+    color: white;
+    border: 2px dotted red;
+    border-radius: 10px;
+  }
+  .others {
+    margin-top: -80px;
+    display: flex;
+    margin-left: 130px;
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation {
+    margin-left: -29px;
+  }
+  .about {
+    margin-left: -15px;
+  }
+  .about > p {
+    margin-left: 80px;
+    margin-top: -106px;
+    justify-content: center;
+  }
+  .social > p {
+    margin-left: 75px;
+    margin-top: -52px;
+  }
+  .social {
+    margin-left: -15px;
+  }
+  .navigation > p,
+  .about > p,
+  .social > p {
+    font-size: 14px;
+  }
+
+  .social > ul > li {
+    font-size: 14px;
+  }
+  .navigation > ul > li {
+    font-size: 14px;
+  }
+  .about > ul > li {
+    font-size: 14px;
+  }
+  .license {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 60px;
+  }
+  .license > p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .license > p:nth-child(3) {
+    margin-left: 15px;
+  }
+  .license > p:nth-child(1) {
+    margin-left: 5px;
+  }
+}
+/* @media (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+  }
+  .container {
+    overflow: hidden;
+    margin-top: -50px;
+    margin-left: -50px;
+  }
+  .mainName {
+    margin-left: 35px;
+  }
+  .menues {
+    margin-left: 120px;
+  }
+  .header .univer-button {
+    margin-left: 400px;
+  }
+  .main-card {
+    max-width: 900px;
+    margin-left: 105px;
+  }
+  .card-box2 {
+    margin-left: -330px;
+  }
+  .workflow-cards {
+    max-width: 880px;
+  }
+  .review-box > img {
+    max-width: 450px;
+    max-height: 400px;
+  }
+  .review-infos > h5 {
+    font-size: 20px;
+    margin-left: -50px;
+    max-width: 400px;
+  }
+  .Project-infos {
+    max-width: 300px;
+  }
+  .Project-box > img {
+    max-width: 480px;
+  }
+  .Project-infos > h5 {
+    font-size: 20px;
+    max-width: 400px;
+  }
+  .Project-infos2 > h5 {
+    font-size: 20px;
+    max-width: 400px;
+    margin-left: -70px;
+  }
+  .Project-infos2 {
+    margin-top: -10px;
+  }
+  .Project-infos2 > h1 {
+    margin-left: -100px;
+    max-width: 460px;
+    font-size: 45px;
+  }
+  .Project-box2 > img {
+    max-width: 450px;
+  }
+
+  .contact-us-elements > .texts {
+    max-width: 400px;
+    margin-left: 70px;
+  }
+  .contact-us-elements > .texts > h1 {
+    font-size: 32px;
+    max-width: 300px;
+  }
+  .contact-us-elements > .texts > p {
+    max-width: 300px;
+    font-size: 26px;
+  }
+  .contact-us-elements > .inputs > form {
+    margin-left: -10px;
+    max-width: 400px;
+    font-size: 16px;
+  }
+  .contact-us-elements.inputs > form > input::placeholder {
+    font-size: 16px;
+  }
+  .inputs > .univer-button {
+    margin-left: 450px;
+    margin-top: -5px;
+  }
+  .license {
+    max-width: 1024px;
+    display: flex;
+    margin-left: 100px;
+  }
+  .license > p {
+    max-width: 300px;
+    max-height: 30px;
+    font-size: 12px;
+  }
+} */
